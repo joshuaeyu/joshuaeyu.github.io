@@ -18,18 +18,25 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
+
+# https://github.com/pages-themes/minimal
+
 title: Joshua E. Yu
-description: >- # this means to ignore newlines until "baseurl:"
-  Welcome! My name is Josh, and I'm currently an M.S. Computer Science
-  candidate in Georgia Tech's OMSCS program. I have a passion for
-  computer graphics because it is so fulfilling to turn mathematical
-  and programmatic concepts into beautiful, interactive visual media.
+# description: >- # this means to ignore newlines until "baseurl:"
+#   M.S. Computer Science, GA Tech '25 (expected)<br>
+#   B.S. Chemical Engineering, UCLA '19
 # email: joshuayu12@gmail.com
 # baseurl: "" # the subpath of your site, e.g. /blog
 # url: "https://github.com/beardyfruit/beardyfruit.github.io.git" # the base hostname & protocol for your site, e.g. http://example.com
-# # twitter_username: jekyllrb
 # github_username:  beardyfruit
-show_downloads: true
+bio: >-
+  Welcome! My name is Josh. I'm passionate about computer graphics programming
+  because I find it extremely fulfilling to transform math and code 
+  into beautiful, interactive visual media. I am currently seeking internship
+  opportunities in the graphics programming space.
+linkedin_url: "https://www.linkedin.com/in/joshuaelliotyu"
+resume_url: ""
+# logo: "/ash.png"
 
 # Build settings
 remote_theme: pages-themes/minimal@v0.2.0

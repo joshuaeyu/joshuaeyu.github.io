@@ -2,10 +2,15 @@
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
-# layout: home
 layout: default
-title: "Joshua Yu"
-description: "hello"
+title: "Personal Website"
 ---
 
-here is some text
+## Current Projects
+
+Custom Graphics Engine in OpenGL
+
+## Coursework
+* CS6601 Artificial Intelligence
+* CS6200 Graduate Introduction to Operating Systems
+* CS6750 Human-Computer Interaction

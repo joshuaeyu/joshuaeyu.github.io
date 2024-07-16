@@ -1,0 +1,28 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+a {
+    color:#267CB9;
+    text-decoration:none;
+    // font-weight: bold;
+}
+
+a:hover, a:focus {
+    color:#0f2f47;
+    font-weight: normal;
+}
+
+a:hover small {
+    color:#777;
+    font-weight: normal;
+}
+
+p small {
+    font-size:11px;
+    color:#777;
+    margin-top:-0.2em;
+    margin-bottom: 0.75em;
+    display:block;
+}
