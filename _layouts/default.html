@@ -25,8 +25,8 @@
         
         <!-- Added by Josh -->
         <p>
-            M.S. Computer Science<small>Georgia Institute of Technology – Dec 2025</small>
-            B.S. Chemical Engineering<small>University of California, Los Angeles – Jun 2019</small>
+            M.S. Computer Science<small>Georgia Institute of Technology - Dec 2025</small>
+            B.S. Chemical Engineering<small>University of California, Los Angeles - Jun 2019</small>
         </p>
 
         {% if site.bio %}
@@ -38,7 +38,7 @@
         {% endif %}
 
         {% if site.resume_url %}
-        <p><a href="{{ site.resume_url }}" target="_blank">Resume (in progress)</a></p>
+        <p><a href="{{ site.resume_url }}" target="_blank">Resume<small>{{ "" | absolute_url }}{{ site.resume_url }}</small></a></p></a></p>
         {% endif %}
         
         {% if site.linkedin_url %}

@@ -223,3 +223,7 @@ a:hover small { color: #777; font-weight: normal; }
 p small { font-size: 11px; color: #777; margin-top: -0.2em; margin-bottom: 0.75em; display: block; }
 
 header { position: static; }
+
+p:has(+ ul) { margin-bottom: 0; }
+
+h3:has(+ ul) { margin-bottom: 0.5em; }

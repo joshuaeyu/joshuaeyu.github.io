@@ -30,3 +30,19 @@ p small {
 header {
     position: static;
 }
+
+p:has(+ ul) {
+    margin-bottom: 0;
+}
+h3:has(+ ul) {
+    margin-bottom: 0.5em;
+}
+// h2:has(+ p) {
+//     margin-bottom: 0.5em;
+// }
+// p {
+//     margin-bottom: 0.5em;
+// }
+// p + ul {
+//     margin-top: 0;
+// }
