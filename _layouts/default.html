@@ -38,7 +38,7 @@
         {% endif %}
 
         {% if site.resume_url %}
-        <p><a href="{{ site.resume_url }}" target="_blank">Resume<small>{{ "" | absolute_url | remove_last: '/' }}{{ site.resume_url }}</small></a></p></a></p>
+        <p><a href="{{ site.resume_url }}" target="_blank">Resume<small>{{ "" | absolute_url | remove_last: '/' | remove_first: 'https://' }}{{ site.resume_url }}</small></a></p></a></p>
         {% endif %}
         
         {% if site.linkedin_url %}
