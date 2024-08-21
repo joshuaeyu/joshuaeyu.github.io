@@ -10,7 +10,7 @@ a {
 }
 
 a:hover, a:focus {
-    color:#133d5e;
+    color:#1e6398;
     font-weight: bold;
 }
 
@@ -37,12 +37,15 @@ p:has(+ ul) {
 h3:has(+ ul) {
     margin-bottom: 0.5em;
 }
-// h2:has(+ p) {
-//     margin-bottom: 0.5em;
-// }
-// p {
-//     margin-bottom: 0.5em;
-// }
-// p + ul {
-//     margin-top: 0;
-// }
+ul ul {
+    margin-bottom: 0em;
+}
+section { 
+    width: 750px;
+}
+.wrapper { 
+    width: 1100px;
+}
+h2 {
+    margin-bottom: 10px;
+}

@@ -20,7 +20,7 @@
 {"@context":"https://schema.org","@type":"WebPage","headline":"Graphics Engine in OpenGL","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/graphics/IMG_5910.jpg"}},"url":"http://localhost:4000/opengl_engine/"}</script>
 <!-- End Jekyll SEO tag -->
 
-    <link rel="stylesheet" href="/assets/css/style.css?v=b288b9af2e5b6efae0cee2444fc19b6d3e10b482">
+    <link rel="stylesheet" href="/assets/css/style.css?v=0e1a04d4bdfd40131af60e20f269b068b1ca5d3d">
     <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
     <![endif]-->
@@ -80,33 +80,79 @@
       </header>
       <section>
 
-      <h1 id="simple-graphics-engine-in-opengl">Simple Graphics Engine in OpenGL</h1>
+      <h1 id="plum---a-simple-graphics-engine">“Plum” - A simple graphics engine</h1>
 
-<p><img src="/graphics/opengl_engine-2024.07.31.png" alt="OpenGL engine screenshot 2024.07.31" title="OpenGL engine screenshot" /></p>
+<p><a href="/graphics/screenshot0.png"><img src="/graphics/screenshot0.png" alt="Plum graphics engine screenshot" title="Plum graphics engine screenshot" /></a>
+<strong><a href="https://github.com/joshuaeyu/plum">github.com/joshuaeyu/plum</a></strong></p>
 
-<p>This is my first ground-up, solo graphics project. I began by following learnopengl.com, which taught me the basics of implementing real-time rendering concepts using the OpenGL API.</p>
+<p>Plum is a simple real-time graphics engine built using OpenGL 4.1 and C++17. It features a deferred rendering pipeline and physically based shading. Users can instantiate lights, primitives, and models into the scene from the engine’s GUI.</p>
 
-<p>Features:</p>
+<p>My goal in creating this engine was to synthesize and expand upon the concepts taught in Learn OpenGL. This has been my first foray into 3D graphics programming with a low-level graphics API, so the program design and structure are still pretty raw (apologies!). I am still actively developing this (see To Do) but plan to begin work on a Vulkan-based project once I feel like this has reached a nice stopping point.</p>
+
+<h2 id="features">Features</h2>
+<h3 id="renderer">Renderer</h3>
 <ul>
-  <li>Deferred rendering</li>
-  <li>3D model loading (.obj, .3mf)</li>
-  <li>Simple 3D geometry (Cube, Sphere)</li>
-  <li>Multiple light sources</li>
+  <li>Deferred rendering (plus a forward rendering pass)</li>
+  <li>Physically based rendering
+    <ul>
+      <li>Metallic-roughness material support</li>
+      <li>Direct and image-based lighting</li>
+    </ul>
+  </li>
+  <li>3D model support - .obj, .gltf, .3mf</li>
+  <li>Primitives - sphere, cube, rectangle</li>
+  <li>Directional and point lights</li>
   <li>Shadow mapping</li>
-  <li>SSAO</li>
-  <li>Postprocessing (HDR tone mapping, Bloom, FXAA)</li>
-  <li>Interactive camera</li>
+  <li>Skybox</li>
+  <li>Post processing
+    <ul>
+      <li>SSAO (screen-space ambient occlusion)</li>
+      <li>HDR tone mapping</li>
+      <li>Bloom</li>
+      <li>FXAA (fast approximate antialiasing)</li>
+    </ul>
+  </li>
 </ul>
 
-<p>To-do:</p>
+<h3 id="interface">Interface</h3>
 <ul>
-  <li>Shadow mapping for more light sources</li>
-  <li>Light volumes</li>
-  <li>PBR</li>
-  <li>ImGui integration</li>
-  <li>Blending</li>
-  <li>PhysX integration</li>
+  <li>User-specifiable…
+    <ul>
+      <li>Shape templates (primitives with colored, textured, or hybrid surfaces)</li>
+      <li>Scene - skybox, light sources, nodes</li>
+    </ul>
+  </li>
+  <li>First-person freefly camera</li>
+  <li>FPS counter</li>
 </ul>
+
+<h2 id="to-do">To-do</h2>
+<ul>
+  <li>Rendering
+    <ul>
+      <li>Mesh instancing with glDraw*Instanced()</li>
+      <li>PBR specular-glossiness workflow support</li>
+      <li>Blending / transparency support</li>
+      <li><a href="https://www.humus.name/Articles/PracticalClusteredShading.pdf">Clustered shading</a></li>
+      <li>Scene graph hierarchy</li>
+    </ul>
+  </li>
+  <li>Interface
+    <ul>
+      <li>Preview new scene nodes before publishing to scene</li>
+      <li>File system explorer to load assets from GUI</li>
+      <li>Save/load scene state</li>
+    </ul>
+  </li>
+  <li>Software design
+    <ul>
+      <li>Split .hpp files into proper .hpp headers and .cpp definitions</li>
+      <li>Abstract further</li>
+    </ul>
+  </li>
+</ul>
+
+<p>Check out the repo for more details!</p>
 
 
       </section>

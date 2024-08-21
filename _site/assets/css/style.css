@@ -216,7 +216,7 @@ footer { width: 270px; float: left; position: fixed; bottom: 50px; -webkit-font-
 @media print { body { padding: 0.4in; font-size: 12pt; color: #444; } }
 a { color: #267CB9; text-decoration: none; }
 
-a:hover, a:focus { color: #133d5e; font-weight: bold; }
+a:hover, a:focus { color: #1e6398; font-weight: bold; }
 
 a:hover small { color: #777; font-weight: normal; }
 
@@ -227,3 +227,11 @@ header { position: static; }
 p:has(+ ul) { margin-bottom: 0; }
 
 h3:has(+ ul) { margin-bottom: 0.5em; }
+
+ul ul { margin-bottom: 0em; }
+
+section { width: 750px; }
+
+.wrapper { width: 1100px; }
+
+h2 { margin-bottom: 10px; }

@@ -8,9 +8,8 @@ title: "Joshua E. Yu"
 
 # Projects
 
-## [Simple Graphics Engine in OpenGL]({{ "/" | absolute_url | append: "opengl_engine/" }})
-
-![OpenGL engine screenshot 2024.07.31](/graphics/opengl_engine-2024.07.31.png "OpenGL engine screenshot")
+## ["Plum" - A simple graphics engine]({{ "/" | absolute_url | append: "opengl_engine/" }})
+[![Plum graphics engine screenshot](/graphics/screenshot0.png "Plum graphics engine screenshot")](/graphics/screenshot0.png)
 
 <!-- ## [Spider-Man Minigame in WebGL]({{ "/" | absolute_url | append: "webgl_spiderman/"}})
 
