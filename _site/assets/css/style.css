@@ -226,7 +226,7 @@ header { position: static; }
 
 p:has(+ ul) { margin-bottom: 0; }
 
-h3:has(+ ul) { margin-bottom: 0.5em; }
+h3 { margin-top: 1em; margin-bottom: 0.5em; }
 
 ul ul { margin-bottom: 0em; }
 

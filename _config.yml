@@ -29,9 +29,9 @@ title: Joshua E. Yu
 # baseurl: "" # the subpath of your site, e.g. /blog
 # url: "https://github.com/beardyfruit/beardyfruit.github.io.git" # the base hostname & protocol for your site, e.g. http://example.com
 # github_username:  beardyfruit
-bio: 
+resume_path: "files/JoshuaEYu-Resume.pdf"
 linkedin_url: "https://www.linkedin.com/in/joshuaelliotyu"
-resume_url: "files/JoshuaEYu-Resume.pdf"
+github_url: "https://github.com/joshuaeyu"
 logo: "graphics/IMG_5910.jpg"
 
 # Build settings

@@ -29,21 +29,22 @@
             B.S. Chemical Engineering<small>University of California, Los Angeles - Jun 2019</small>
         </p>
 
-        <!-- {% if site.bio %}
-        <p>{{ site.bio }}</p>
-        {% endif %}
-         -->
         {% if site.email %}
         <p>{{ site.email }}</p>
         {% endif %}
 
-        {% if site.resume_url %}
-        <p><a href="{{ site.resume_url }}" target="_blank">Resume<small>{{ "" | absolute_url | remove_last: '/' | remove_first: 'https://' }}{{ site.resume_url }}</small></a></p></a></p>
+        {% if site.resume_path %}
+        <p><a href="{{ site.resume_path }}" target="_blank">Resume<small>{{ "" | absolute_url | remove_last: '/' | remove_first: 'https://' }}{{ site.resume_path }}</small></a></p></a></p>
         {% endif %}
         
         {% if site.linkedin_url %}
-        <p><a href="{{ site.linkedin_url }}" target="_blank">LinkedIn<small>www.linkedin.com/in/joshuaelliotyu</small></a></p>
+        <p><a href="{{ site.linkedin_url }}" target="_blank">LinkedIn<small>{{ site.linkedin_url | remove_first: 'https://' }}</small></a></p>
         {% endif %}
+        
+        {% if site.github_url %}
+        <p><a href="{{ site.github_url }}" target="_blank">GitHub<small>{{ site.github_url | remove_first: 'https://' }}</small></a></p>
+        {% endif %}
+        
         <!-- End added by Josh -->
         
         <!-- Default, unused -->
@@ -51,9 +52,6 @@
         <p class="view"><a href="{{ site.github.repository_url }}">View the Project on GitHub <small>{{ site.github.repository_nwo }}</small></a></p>
         {% endif %}
         
-        {% if site.github.is_user_page %}
-        <p class="view"><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></p>
-        {% endif %}
 
         {% if site.show_downloads %}
         <ul class="downloads">
