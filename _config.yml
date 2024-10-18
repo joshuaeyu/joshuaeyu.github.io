@@ -29,7 +29,7 @@ title: Joshua E. Yu
 # baseurl: "" # the subpath of your site, e.g. /blog
 # url: "https://github.com/beardyfruit/beardyfruit.github.io.git" # the base hostname & protocol for your site, e.g. http://example.com
 # github_username:  beardyfruit
-bio: Welcome! My name is Josh. I'm passionate about computer graphics programming because I find it extremely fulfilling to learn what it takes behind the scenes to create stunning visual media from code and math.<br><br>I am currently seeking internship opportunities in the graphics programming space.
+bio: 
 linkedin_url: "https://www.linkedin.com/in/joshuaelliotyu"
 resume_url: "files/JoshuaEYu-Resume.pdf"
 logo: "graphics/IMG_5910.jpg"
