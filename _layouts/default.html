@@ -34,15 +34,15 @@
         {% endif %}
 
         {% if site.resume_path %}
-        <p><a href="{{ site.resume_path }}" target="_blank">Resume<small>{{ "" | absolute_url | remove_last: '/' | remove_first: 'https://' }}{{ site.resume_path }}</small></a></p></a></p>
+        <p><a href="{{ site.resume_path }}" target="_blank">Resume<br><small>{{ "" | absolute_url | remove_last: '/' | remove_first: 'https://' }}{{ site.resume_path }}</small></a></p></a></p>
         {% endif %}
         
         {% if site.linkedin_url %}
-        <p><a href="{{ site.linkedin_url }}" target="_blank">LinkedIn<small>{{ site.linkedin_url | remove_first: 'https://' }}</small></a></p>
+        <p><a href="{{ site.linkedin_url }}" target="_blank">LinkedIn<br><small>{{ site.linkedin_url | remove_first: 'https://' }}</small></a></p>
         {% endif %}
         
         {% if site.github_url %}
-        <p><a href="{{ site.github_url }}" target="_blank">GitHub<small>{{ site.github_url | remove_first: 'https://' }}</small></a></p>
+        <p><a href="{{ site.github_url }}" target="_blank">GitHub<br><small>{{ site.github_url | remove_first: 'https://' }}</small></a></p>
         {% endif %}
         
         <!-- End added by Josh -->

@@ -27,9 +27,9 @@ p small {
     display:block;
 }
 
-header {
-    position: static;
-}
+// header {
+//     position: static;
+// }
 
 p:has(+ ul) {
     margin-bottom: 0;
@@ -41,12 +41,12 @@ h3 {
 ul ul {
     margin-bottom: 0em;
 }
-section { 
-    width: 750px;
-}
-.wrapper { 
-    width: 1100px;
-}
+// section { 
+//     width: 750px;
+// }
+// .wrapper { 
+//     width: 1100px;
+// }
 h2 {
     margin-bottom: 10px;
 }

@@ -10,9 +10,9 @@ title: "Joshua E. Yu"
 
 Hello! My name is Josh. I'm currently pursuing a M.S. in Computer Science through Georgia Institute of Technology's OMSCS program. I am actively seeking entry level or internship roles in software engineering.
 
-I'm interested in computer graphics because it is exciting to learn the theory and practice of transforming code into the visual media seen in my favorite video games and movies. So far, I've learned the fundamentals of real-time rendering and developed a rudimentary 3D graphics engine. I'm eager to continue learning computer graphics theory while improving my overall software engineering skills. 
+I'm interested in computer graphics because it is exciting to learn the theory and practice of transforming code into stunning visuals I see in my favorite video games and movies. So far, I've learned the fundamentals of real-time rendering and developed a rudimentary 3D graphics engine. I'm eager to continue learning computer graphics theory while improving my overall software engineering skills. 
 
-I originally earned a B.S. in Chemical Engineering from the University of California, Los Angeles (UCLA). After graduating, I worked at a major biopharmaceutical company for five years in multiple technical operations roles, the longest and most recent of which was as an Automation Engineer. In Fall 2023, I began Georgia Tech's OMSCS program.
+I originally earned a B.S. in Chemical Engineering from the University of California, Los Angeles (UCLA). After graduating, I worked at a major biopharmaceutical company for five years in multiple technical operations roles, the longest and most recent of which was as an Automation Engineer.
 
 ---
 
