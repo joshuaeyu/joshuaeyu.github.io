@@ -22,14 +22,7 @@
 # https://github.com/pages-themes/minimal
 
 title: Joshua E. Yu
-# description: >- # this means to ignore newlines until "baseurl:"
-#   M.S. Computer Science, GA Tech '25 (expected)<br>
-#   B.S. Chemical Engineering, UCLA '19
-# email: joshuayu12@gmail.com
-# baseurl: "" # the subpath of your site, e.g. /blog
-# url: "https://github.com/beardyfruit/beardyfruit.github.io.git" # the base hostname & protocol for your site, e.g. http://example.com
-# github_username:  beardyfruit
-resume_path: "files/JoshuaEYu-Resume.pdf"
+resume_url: "https://drive.google.com/file/d/17kbHTBqv-1L8799xii2MNCnk8hMMWAWM/view?usp=share_link"
 linkedin_url: "https://www.linkedin.com/in/joshuaelliotyu"
 github_url: "https://github.com/joshuaeyu"
 logo: "graphics/IMG_5910.jpg"
@@ -37,8 +30,7 @@ logo: "graphics/IMG_5910.jpg"
 # Build settings
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
-  # - jekyll-feed
-  - jekyll-remote-theme
+ - jekyll-remote-theme
 
 # Exclude from processing.
 # The following items will not be processed, by default.
