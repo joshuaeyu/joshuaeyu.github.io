@@ -1,6 +1,6 @@
 # Reference files
 themefiles
 
-# Don't include WIP pages
-*.markdown
-!index.markdown
+# # Don't include WIP pages
+# *.markdown
+# !index.markdown
