@@ -1,6 +1,9 @@
 # Reference files
 themefiles
 
+# Local build files
+_site
+
 # # Don't include WIP pages
 # *.markdown
 # !index.markdown
