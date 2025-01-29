@@ -33,6 +33,9 @@ Plum is a simple real-time graphics engine built using OpenGL 4.1 and C++17. It 
 
 ### [Augmenting Neural Network Learning with Clustering and Dimensional Reduction](unsupervised_learning)
 
+
+[!["Neural network performance table"](/graphics/neuralnetwork_dimred_clustering.png "Clustering scatter plot for Dry Bean"){:.project-image}](unsupervised_learning)
+
 This project compares the effectiveness of two clustering strategies—Expectation-Maximization and *k*-Means—and three dimensionality reduction methods—Random Projection, Principal Component Analysis, and Independent Component Analysis—by applying them to two datasets available on the UC Irvine Machine Learning Repository.
 
 </article>
@@ -54,7 +57,7 @@ This project compares three randomized optimization strategies—Random Restart 
 
 My team's final project in COM SCI 174A: Intro to Computer Graphics at UCLA. -->
 
-<hr>{:.strong-hr}
+<hr>
 
 ## Coursework
 
