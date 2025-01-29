@@ -7,7 +7,6 @@
 
 {% seo %}
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
-    <!-- icon doesn't work on safari -->
     <link rel="icon" sizes="500x451" type="image/png" href="/graphics/sitelogo.png">
     <link rel="apple-touch-icon" sizes="500x451" type="image/png" href="/graphics/sitelogo.png">
   </head>
@@ -44,12 +43,7 @@
         {% endif %}
         
         <!-- Social Media Links -->
-        <p>
-          <style>
-            a + a {
-              padding-left: 0.5em;
-            };
-          </style>
+        <p id="social">
           <a href="{{ site.linkedin_url }}" target="_blank">{% include linkedin_svg.html %}LinkedIn</a>
           <a href="{{ site.github_url }}" target="_blank">{% include github_svg.html %}GitHub</a>
         </p>
