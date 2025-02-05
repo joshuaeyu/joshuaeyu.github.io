@@ -86,6 +86,10 @@ hr {
     padding-left: 0.5em;
 };
 
+#main-title {
+    color: black;
+};
+
 @media print, screen and (max-width: 960px) {
     header ul {
         position: relative;
