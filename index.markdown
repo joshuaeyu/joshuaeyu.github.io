@@ -31,7 +31,7 @@ Plum is a simple real-time graphics engine built using OpenGL 4.1 and C++17. It 
 
 <article markdown="block">
 
-### [Augmenting Neural Network Learning with Clustering and Dimensional Reduction](unsupervised_learning)
+### [Optimizing Neural Network Learning with Clustering and Dimensional Reduction](unsupervised_learning)
 
 
 [!["Neural network performance table"](/graphics/neuralnetwork_dimred_clustering.png "Clustering scatter plot for Dry Bean"){:.project-image-large}](unsupervised_learning)
@@ -40,7 +40,7 @@ This project demonstrates how unsupervised learning techniques such as clusterin
 
 </article>
 
-<hr>{:.weak-hr}
+<!-- <hr>{:.weak-hr}
 
 <article markdown="block">
 
@@ -49,7 +49,7 @@ This project demonstrates how unsupervised learning techniques such as clusterin
 
 This project compares three randomized optimization strategies—Random Restart Hill Climbing, Simulated Annealing, and Genetic Algorithms—by applying them to three optimization problems—Six Peaks, Knapsack, and neural network weight optimization.
 
-</article>
+</article> -->
 
 <!-- ## [Spider-Man Minigame in WebGL]({{ "/" | absolute_url | append: "webgl_spiderman/"}})
 
