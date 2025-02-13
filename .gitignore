@@ -1,12 +1,15 @@
+# OS files
+.DS_Store
+*/.DS_Store
+
 # Reference files
 themefiles
 
-# Local build files
-_site
-
+# --- Local build files ---
 # Ruby
+Gemfile
 Gemfile.lock
-
 # Jekyll
+_site
 .git-metadata
 .jekyll-cache
