@@ -4,6 +4,9 @@ themefiles
 # Local build files
 _site
 
-# # Don't include WIP pages
-# *.markdown
-# !index.markdown
+# Ruby
+Gemfile.lock
+
+# Jekyll
+.git-metadata
+.jekyll-cache
