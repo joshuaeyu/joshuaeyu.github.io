@@ -4,11 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-{% seo %}
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
     <link rel="icon" sizes="1020x1020" type="image/png" href="/images/sitelogo_c1.png">
     <link rel="apple-touch-icon" sizes="1020x1020" type="image/png" href="/images/sitelogo_c1.png">
+    {% seo %}
   </head>
   <body>
     <div class="wrapper">
@@ -16,19 +15,25 @@
         <h1><a id="main-title" href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
 
         <!-- Site Contents and Resume -->
-        <p>
-          <ul style="padding-left: 0; list-style-type: none; line-height: 1.5em;">
-            <li><a href="{{ site.absolute_url }}/#welcome">About</a></li>
-            <li><a href="{{ site.absolute_url }}/#projects">Projects</a></li>
-            <li><a href="{{ site.absolute_url }}/#coursework">Coursework</a></li>
+        <nav style="padding-left: 0; list-style-type: none; line-height: 1.5em;">
+          {% for item in site.data.navigation %}
+            <li>
+              <a href="{{ item.link }}">{{ item.name }}</a>
+            </li>
+          {% endfor %}
             <li><a href="{{ site.resume_url }}" target="_blank">Resume</a></li>
-          </ul>
+        </nav>
+        
+        <br>
+        
+        <!-- Social Media Links -->
+        <p id="social">
+          <a href="{{ site.linkedin_url }}" target="_blank">{% include linkedin_svg.html %}LinkedIn</a>
+          <a href="{{ site.github_url }}" target="_blank">{% include github_svg.html %}GitHub</a>
         </p>
 
         <!-- Profile Photo -->
-        {% if site.logo %}
-          <img src="{{site.logo | relative_url}}" alt="Logo" />
-        {% endif %}
+        <img src="{{site.logo | relative_url}}" alt="Logo" />
 
         <p>{{ site.description | default: site.github.project_tagline }}</p>
         
@@ -42,25 +47,16 @@
         <p>{{ site.email }}</p>
         {% endif %}
         
-        <!-- Social Media Links -->
-        <p id="social">
-          <a href="{{ site.linkedin_url }}" target="_blank">{% include linkedin_svg.html %}LinkedIn</a>
-          <a href="{{ site.github_url }}" target="_blank">{% include github_svg.html %}GitHub</a>
-        </p>
-        
       </header>
       <section>
-
-      {{ content }}
+        
+        {{ content }}
         
         <hr class="weak-hr">
         <p>
           <a href="#top">Back to top</a>
         </p>
       </section>
-      <footer>
-        <!-- <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p> -->
-      </footer>
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
   </body>

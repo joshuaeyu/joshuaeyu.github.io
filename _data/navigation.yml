@@ -1,0 +1,6 @@
+- name: About
+  link: /#welcome
+- name: Projects
+  link: /#projects
+- name: Coursework
+  link: /#coursework
