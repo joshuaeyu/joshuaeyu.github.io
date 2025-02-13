@@ -1,25 +1,9 @@
 ---
-layout: default
+layout: post
 title: Optimizing Neural Network Learning with Clustering and Dimensional Reduction
 permalink: /unsupervised_learning/
+toc: true
 ---
-
-# Optimizing Neural Network Learning with Clustering and Dimensional Reduction
-
-Updated Feburary 12th, 2025
-
-<hr>{:.weak-hr}
-
-1. [Overview](#overview)
-2. [Datasets](#datasets)
-3. [Clustering](#clustering)
-   1. [Clustering Performance](#clustering-performance)
-   2. [Cluster Labels as a New Input to Neural Networks](#cluster-labels-as-a-new-input-to-neural-networks)
-4. [Dimensionality Reduction](#dimensionality-reduction)
-   1. [Dimensionality Reduction Performance](#dimensionality-reduction-performance)
-   2. [Neural Network Learning using Reduced Dimensions](#neural-network-learning-using-reduced-dimensions)
-
-<hr>{:.weak-hr}
 
 ## Overview
 

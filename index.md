@@ -1,7 +1,4 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
 layout: default
 title: "Joshua E. Yu"
 ---
@@ -38,17 +35,6 @@ Plum is a simple real-time graphics engine which I developed using OpenGL 4.1 an
 This is an overview of my work on the corresponding assignment in *CS 7641: Machine Learning* at the Georgia Institute of Technology. This project demonstrates how unsupervised learning techniques such as clustering and dimensionality reduction can be used to optimize supervised learning for two datasets available on the UC Irvine Machine Learning Repository.
 
 </article>
-
-<!-- <hr>{:.weak-hr}
-
-<article markdown="block">
-
-### [Structural and Numerical Emphases in Optimization Problems](randomized_optimization)
-[!["Randomized optimization: Convergence at different problem sizes"](/images/problemsize_curves.png "Randomized optimization: Convergence at different problem sizes"){:.project-image}](randomized_optimization)
-
-This project compares three randomized optimization strategies—Random Restart Hill Climbing, Simulated Annealing, and Genetic Algorithms—by applying them to three optimization problems—Six Peaks, Knapsack, and neural network weight optimization.
-
-</article> -->
 
 <hr>{:.weak-hr}
 

@@ -1,0 +1,19 @@
+---
+layout: default
+---
+<h1>{{ page.title }}</h1>
+
+<!-- Last commit date -->
+{% if page.git.last_commit.commit_date %}
+<p>Updated {{ page.git.last_commit.commit_date | date_to_string }}</p>
+{% endif %}
+
+<!-- Table of contents -->
+<hr class="weak-hr">
+
+{% toc %}
+
+<hr class="weak-hr">
+
+<!-- Content -->
+{{ content }}
