@@ -36,7 +36,6 @@ plugins:
 
 # Exclude from processing.
 exclude:
- - randomized_optimization.markdown
  - themefiles/
 
 # The following items will not be processed, by default.
