@@ -30,7 +30,7 @@ Plum is a simple real-time graphics engine which I developed using OpenGL 4.1 an
 
 ### [Optimizing Neural Network Learning with Clustering and Dimensional Reduction](unsupervised_learning)
 
-[!["Neural network performance table"](/images/neuralnetwork_dimred_clustering.png "Clustering scatter plot for Dry Bean"){:.project-image-large}](unsupervised_learning)
+[!["Neural network performance table"](/images/neuralnetwork_dimred_clustering.png "Neural network performance table"){:.project-image-large}](unsupervised_learning)
 
 This is an overview of my work on the corresponding assignment in *CS 7641: Machine Learning* at the Georgia Institute of Technology. This project demonstrates how unsupervised learning techniques such as clustering and dimensionality reduction can be used to optimize supervised learning for two datasets available on the UC Irvine Machine Learning Repository.
 
