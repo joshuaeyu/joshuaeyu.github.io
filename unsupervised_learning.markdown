@@ -49,9 +49,9 @@ In addition, as I'll show here, it can be useful as a preprocessing stage for su
 
 First, let's visualize the effectiveness of clustering on the datasets (contingency matrices are also a useful tool but I did not include them here for brevity). For this, I used scikit-learn's [GaussianMixture](https://scikit-learn.org/stable/modules/generated/sklearn.mixture.GaussianMixture.html) and [KMeans](https://scikit-learn.org/stable/modules/generated/sklearn.cluster.KMeans.html). The number of clusters for each algorithm and dataset were selected by analyzing the Calinski-Harabasz index and Davis-Bouldin index at different values of *k* (not shown here for brevity).
 
-!["Dry Bean dataset clustering scatter plot"](/graphics/p1_drybean_clustering_scat.png "Dry Bean dataset clustering scatter plot"){:.project-image}
+!["Dry Bean dataset clustering scatter plot"](/images/p1_drybean_clustering_scat.png "Dry Bean dataset clustering scatter plot"){:.project-image}
 
-!["Obesity dataset clustering scatter plot"](/graphics/p1_obesity_clustering_scat.png "Obesity dataset clustering scatter plot"){:.project-image}
+!["Obesity dataset clustering scatter plot"](/images/p1_obesity_clustering_scat.png "Obesity dataset clustering scatter plot"){:.project-image}
 
 Both GMM and *k*-means clustering are much more effective on Dry Bean than Obesity. For Dry Bean, nearly all true classes in the dataset are partitioned, with the exception of true classes 0 and 2, which are grouped together. In contrast, only true class 6 can really be discerned in Obesity. These results are likely because Dry Bean's features are continuous and based on geometric properties, whereas Obesity's features are noisier and based on human survey responses.
 
@@ -61,7 +61,7 @@ So how can clusters be used to optimize supervised learning? The approach I expl
 
 Using five-fold cross validation, I performed a grid search to optimize the network architecture of the new, augmented, 17-input neural network models. I then tested the models on the 20% of the data I had held out for testing, yielding the following results (ignore the rows related to dimensionality reduction for now):
 
-!["Neural network performance table"](/graphics/neuralnetwork_dimred_clustering.png "Neural network performance table"){:.project-image-large}
+!["Neural network performance table"](/images/neuralnetwork_dimred_clustering.png "Neural network performance table"){:.project-image-large}
 
 I was happy to find that **the optimal architectures of the augmented models were much simpler than those of the original models!** For Dry Bean, the number of hidden layers dropped from three to just one, and for Obesity, the number of hidden units in its single hidden layer dropped from 100 to just 9 and 7. 
 
@@ -77,9 +77,9 @@ Dimensionality reduction methods are used to transform feature sets into fewer, 
 
 Let's visualize how PCA and ICA transform the original features of the Dry Bean and Obesity datasets. For this, I used scikit-learn's [PCA](https://scikit-learn.org/stable/modules/generated/sklearn.decomposition.PCA.html) and [FastICA](https://scikit-learn.org/stable/modules/generated/sklearn.decomposition.FastICA.html). The number of components for PCA was determined based on a threshold of 90 percent cumulative explained variance, and for ICA, components were selected by finding elbows in the kurtosis and reconstruction error plots (not shown here for brevity).
 
-!["Dry Bean and Obesity dataset PCA projections"](/graphics/p2_pca_projections.png "Dry Bean and Obesity dataset PCA"){:.project-image-small}
+!["Dry Bean and Obesity dataset PCA projections"](/images/p2_pca_projections.png "Dry Bean and Obesity dataset PCA"){:.project-image-small}
 
-!["Dry Bean and Obesity dataset ICA projections"](/graphics/p2_ica_projections.png "Dry Bean and Obesity dataset ICA projections"){:.project-image-small}
+!["Dry Bean and Obesity dataset ICA projections"](/images/p2_ica_projections.png "Dry Bean and Obesity dataset ICA projections"){:.project-image-small}
 
 These plots visualize the raw value of each principal component (PC) and independent component (IC) for each instance in each data set. Note that these algorithms are unsupervised (blind to the true class labels) and that true class labels are superimposed for reference and analysis purposes. 
 
@@ -91,7 +91,7 @@ How does dimensionality reduction impact neural network learning? Put differentl
 
 As with the clustering discussion above, I performed a grid search using five-fold cross validation to optimize the network architecture of the new neural network models. The test set results are as follows (this is the same table shown above):
 
-!["Neural network performance table"](/graphics/neuralnetwork_dimred_clustering.png "Neural network performance table"){:.project-image-large}
+!["Neural network performance table"](/images/neuralnetwork_dimred_clustering.png "Neural network performance table"){:.project-image-large}
 
 **Dimensionality reduction improved neural network learning on the Dry Bean dataset**. RP, PCA, and ICA all resulted in simpler network architectures with up to 67% reduction in fit time. F1 score was unaffected except for PCA, which reduced F1 score by 5%. This was likely because only three princpal components were used; increasing this to four or even five could increase performance.
 
