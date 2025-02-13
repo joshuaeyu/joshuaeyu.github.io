@@ -5,7 +5,7 @@ layout: default
 
 <!-- Last commit date -->
 {% if page.git.last_commit.commit_date %}
-<p>Updated {{ page.git.last_commit.commit_date | date_to_long_string: "ordinal", "US" }}</p>
+<p>Updated {{ page.git.last_commit.commit_date | date_to_string }}</p>
 {% endif %}
 
 <!-- Table of contents -->

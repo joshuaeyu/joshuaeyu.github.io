@@ -7,7 +7,6 @@ themefiles
 
 # --- Local build files ---
 # Ruby
-Gemfile
 Gemfile.lock
 # Jekyll
 _site

@@ -19,7 +19,6 @@ group :jekyll_plugins do
   gem "jekyll-remote-theme"
   gem "jekyll-git_metadata"
   gem "jekyll-toc"
-  gem "jekyll-seo-tag"
 end
 
 # # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
