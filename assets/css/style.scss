@@ -14,6 +14,16 @@ header {
 
 section { 
     width: calc(100% - 270px - 60px);  // header is 270px wide, let margin be 60px
+    border: 1px solid rgb(95, 95, 95);
+    border-width: 0 0 1px 0;
+    padding-bottom: unset;
+}
+
+footer {
+    width: calc(100% - 270px - 60px);  // header is 270px wide, let margin be 60px
+    float: right;
+    padding: 20px 0 20px 0;
+    position: unset;
 }
 
 h3 {
@@ -113,6 +123,11 @@ hr {
         border: 1px solid rgb(95, 95, 95);
         border-width: 1px 0;
         margin: 0;
+        width: auto;
+    }
+    footer {
+        float: none;
+        position: static;
         width: auto;
     }
     .project-image, .project-image-small, .project-image-large {
