@@ -18,9 +18,22 @@ Previously, I earned a B.S. in Chemical Engineering from the University of Calif
 <article markdown="block">
 
 ### ["Plum" - A simple graphics engine](https://github.com/joshuaeyu/plum){:target="_blank"}
+
 [![Plum graphics engine screenshot](/images/screenshot0.png "Plum graphics engine screenshot"){:.project-image}](https://github.com/joshuaeyu/plum){:target="_blank"}
 
 Plum is a simple real-time graphics engine which I developed using OpenGL 4.1 and C++17. It features a deferred rendering pipeline and physically based shading. Users can instantiate lights, primitives, and models into the scene from the engine's GUI.
+
+</article>
+
+<hr>{:.weak-hr}
+
+<article markdown="block">
+
+### [OpenGL 3.3 Implementation of Jos Stam's Stable Fluids](https://github.com/joshuaeyu/stablefluids)
+
+[!["Fluid simulation screenshot"](/images/stablefluids.png "Fluid simulation screenshot"){:.project-image}](https://github.com/joshuaeyu/stablefluids)
+
+Jos Stam's original demo was written in C using GLUT for early versions of OpenGL. To begin learning real-time fluid simulation techniques I've begun by porting his demo to OpenGL 3.3, using GLFW and GLAD.
 
 </article>
 
