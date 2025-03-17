@@ -17,11 +17,13 @@ Previously, I earned a B.S. in Chemical Engineering from the University of Calif
 
 <article markdown="block">
 
-### ["Plum" - A simple graphics engine](https://github.com/joshuaeyu/plum){:target="_blank"}
+### [Real-Time 3D Graphics Engine](https://github.com/joshuaeyu/plum){:target="_blank"}
 
-[![Plum graphics engine screenshot](/images/screenshot0.png "Plum graphics engine screenshot"){:.project-image}](https://github.com/joshuaeyu/plum){:target="_blank"}
+[![Plum graphics engine screenshot](/images/screenshot0.png "Plum graphics engine screenshot"){:.project-image}](https://github.com/joshuaeyu/plum){:target="_blank"}   
 
-Plum is a simple real-time graphics engine which I developed using OpenGL 4.1 and C++17. It features a deferred rendering pipeline and physically based shading. Users can instantiate lights, primitives, and models into the scene from the engine's GUI.
+Plum is a real-time graphics engine which I developed using OpenGL 4.1 and C++17. It features a deferred rendering pipeline and physically based shading. Users can instantiate lights, primitives, and models into the scene from the engine's GUI. 
+
+I am currently refactoring the project! (You can view my progress on the `feature/refactor-plum` branch.)
 
 </article>
 
@@ -29,11 +31,11 @@ Plum is a simple real-time graphics engine which I developed using OpenGL 4.1 an
 
 <article markdown="block">
 
-### [OpenGL 3.3 Implementation of Jos Stam's Stable Fluids](https://github.com/joshuaeyu/stablefluids)
+### [Real-Time Fluid Simulation following Jos Stam's *Stable Fluids*](https://github.com/joshuaeyu/stablefluids)
 
 [!["Fluid simulation screenshot"](/images/stablefluids.png "Fluid simulation screenshot"){:.project-image}](https://github.com/joshuaeyu/stablefluids)
 
-Jos Stam's original demo was written in C using GLUT for early versions of OpenGL. To begin learning real-time fluid simulation techniques I've begun by porting his demo to OpenGL 3.3, using GLFW and GLAD.
+I've ported Jos Stam's original demo, written in C and GLUT for early versions of OpenGL, to OpenGL 3.3 using GLAD and GLFW. I've additionally introduced modifications such as periodic (toroidal) boundary conditions and colored visualization of velocity.
 
 </article>
 
@@ -45,7 +47,7 @@ Jos Stam's original demo was written in C using GLUT for early versions of OpenG
 
 [!["Neural network performance table"](/images/neuralnetwork_dimred_clustering.png "Neural network performance table"){:.project-image-large}](unsupervised_learning)
 
-This is an overview of my work on the corresponding assignment in *CS 7641: Machine Learning* at the Georgia Institute of Technology. This project demonstrates how unsupervised learning techniques such as clustering and dimensionality reduction can be used to optimize supervised learning for two datasets available on the UC Irvine Machine Learning Repository.
+This article is an overview of my work on the corresponding assignment in *CS 7641: Machine Learning* at the Georgia Institute of Technology. This project demonstrates how unsupervised learning techniques such as clustering and dimensionality reduction can be used to optimize supervised learning for two datasets available on the UC Irvine Machine Learning Repository.
 
 </article>
 
