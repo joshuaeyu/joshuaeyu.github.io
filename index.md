@@ -19,11 +19,9 @@ Previously, I earned a B.S. in Chemical Engineering from the University of Calif
 
 ### [Real-Time 3D Graphics Engine](https://github.com/joshuaeyu/plum){:target="_blank"}
 
-[![Plum graphics engine screenshot](/images/screenshot0.png "Plum graphics engine screenshot"){:.project-image}](https://github.com/joshuaeyu/plum){:target="_blank"}   
+[![Plum graphics engine screenshot](/images/screenshot_demo1.png "Plum graphics engine screenshot"){:.project-image}](https://github.com/joshuaeyu/plum){:target="_blank"}   
 
-Plum is a real-time graphics engine which I developed using OpenGL 4.1 and C++17. It features a deferred rendering pipeline and physically based shading. Users can instantiate lights, primitives, and models into the scene from the engine's GUI. 
-
-I am currently refactoring the project! (You can view my progress on the `feature/refactor-plum` branch.)
+Plum is a simple real-time graphics engine built using OpenGL 4.1 and C++17. It features a deferred rendering pipeline and physically based shading. Users can create materials and instantiate models, primitives, and lights into the scene from the engine's GUI.
 
 </article>
 
