@@ -7,9 +7,7 @@ title: "Joshua E. Yu"
 
 My name is Josh, and I'm currently pursuing an M.S. in Computer Science at the Georgia Institute of Technology through its OMSCS program. My aim is to apply math- and science-based theory to software in areas such as computer graphics and machine learning. 
 
-I am actively seeking entry level or internship roles in software engineering.
-
-Previously, I earned a B.S. in Chemical Engineering from the University of California, Los Angeles (UCLA). Upon graduating, I worked at Takeda Pharmaceutical Company in multiple technical operations roles, the longest and most recent of which was as an Automation Engineer.
+Previously, I earned a B.S. in Chemical Engineering from the University of California, Los Angeles (UCLA). Upon graduating, I worked at Takeda Pharmaceutical Company in multiple technical operations roles, the longest and most recent of which was as an Automation Engineer. This summer (2025), I will be working at General Atomics Aeronautical Systems (GA-ASI) as a Machine Learning Intern.
 
 ---
 
@@ -66,12 +64,13 @@ This was my team's final project in *COM SCI 174A: Introduction to Computer Grap
 ## Coursework
 
 ### Georgia Institute of Technology
-* CS 7641: Machine Learning
-* CS 6750: Human-Computer Interaction
-* CS 6601: Artificial Intelligence
-* CS 6457: Video Game Design
-* CS 6300: Software Development Process
 * CS 6200: Graduate Introduction to Operating Systems
+* CS 6300: Software Development Process
+* CS 6457: Video Game Design
+* CS 6491: Foundations of Computer Graphics
+* CS 6601: Artificial Intelligence
+* CS 6750: Human-Computer Interaction
+* CS 7641: Machine Learning
 * CS 8001 ODA: Data Structures & Algorithms Seminar
 
 ### University of California, Los Angeles
