@@ -1,8 +1,9 @@
 ---
 layout: post
-title: Optimizing Neural Network Learning with Clustering and Dimensional Reduction
-permalink: /unsupervised_learning/
+title: Optimizing Neural Network Learning with Clustering and Dimensionality Reduction
+permalink: /unsuplearning/
 toc: true
+last_updated: February 13th, 2025
 ---
 
 ## Overview

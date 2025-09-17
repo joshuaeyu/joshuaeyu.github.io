@@ -38,9 +38,9 @@ I've ported Jos Stam's original demo, written in C and GLUT for early versions o
 <hr>{:.weak-hr}
 
 <article markdown="block">
-### [Optimizing Neural Network Learning with Clustering and Dimensional Reduction](unsupervised_learning)
+### [Optimizing Neural Network Learning with Clustering and Dimensionality Reduction](unsuplearning)
 
-[!["Neural network performance table"](/images/neuralnetwork_dimred_clustering.png "Neural network performance table"){:.project-image-large}](unsupervised_learning)
+[!["Neural network performance table"](/images/neuralnetwork_dimred_clustering.png "Neural network performance table"){:.project-image-large}](unsuplearning)
 
 This article is an overview of my work on the corresponding assignment in *CS 7641: Machine Learning* at the Georgia Institute of Technology. This project demonstrates how unsupervised learning techniques such as clustering and dimensionality reduction can be used to optimize supervised learning for two datasets available on the UC Irvine Machine Learning Repository.
 </article>
